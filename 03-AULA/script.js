@@ -1,63 +1,64 @@
-// console.log("VAMO Q VAMO")
+console.log("VAMO Q VAMO")
 
-// // LAÇOS DE REPETIÇÃO
-// // PARA = FOR
-// for(var i = 0; i < 5; i++){
-//     console.log("Ainda estoy ahí");   
-// }
+// LAÇOS DE REPETIÇÃO
+// PARA = FOR
+for(var i = 0; i < 5; i++){
+    console.log("Ainda estoy ahí");   
+}
 
-// console.log("Acabou de repetir");
+console.log("Acabou de repetir");
 
-// // ENQUANTO = WHILE
+// ENQUANTO = WHILE
 
-// var contagem = 0
-// while(contagem < 10){
-//     console.log("Estou repetindo infinitamente")
-//     contagem++
+var contagem = 0
+while(contagem < 10){
+    console.log("Estou repetindo infinitamente")
+    contagem++
 
 
-// }
+}
  
 
-// //ATIVIDADE
+//ATIVIDADE
 
-// var contagem = prompt("Digite um para iniciar a contagem:")
-//     for(var i = 0; i < contagem; i++){
-//     console.log("contagem:" , i)
+var contagem = prompt("Digite um para iniciar a contagem:")
+    for(var i = 0; i < contagem; i++){
+    console.log("contagem:" , i)
     
-// }
+}
 
 
-// var senhaCorreta = "2000"
-// while(senha != senhaCorreta){
-//      var senha = prompt("Digite sua senha") 
-//         alert("senha está incorreta, Dica sua senha é depois de 1999")
-//    var senha = prompt("Digite sua senha novamente")
-//           console.log("Abriu!!");
+var senhaCorreta = "0"
+var senhaCorreta = "7"
+while(senha != senhaCorreta){
+ 
+        alert("Digite a senha, Dica sua senha é depois de 1999")
+}
 
-// }
+console.log("Senha correta, Bem-Vindo(a)!");
 
-//FUNÇÕES
+
+FUNÇÕES
 
 // Cria a função
-// function bemVindo(){
-//         var nome = prompt("Nome: ")
-//         console.log("Olá, ", nome)
-// }
-// // Chama a função
-// bemVindo()
+function bemVindo(){
+        var nome = prompt("Nome: ")
+        console.log("Olá, ", nome)
+}
+// Chama a função
+bemVindo()
 
 
-// // Função com parametros
-// function calcularIdade(idade){
-//     alert("Sua idade é: "+ idade)
+// Função com parametros
+function calcularIdade(idade){
+    alert("Sua idade é: "+ idade)
 
-// }
+}
 
-// calcularIdade(18)
-// calcularIdade(18)
+calcularIdade(18)
+calcularIdade(18)
 
-//Atividade
+Atividade
 
 function maior(numero1, numero2){  
     if (numero1 > numero2){
