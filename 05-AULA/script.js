@@ -28,6 +28,7 @@ var lapis = {
 
 console.log(lapis.cor,"-",lapis.funcao)
 
+
 //Outra forma de acessar propriedade
 console.log("Cor:", lapis["cor"])
 
@@ -73,7 +74,6 @@ var animal = {
         
      }
 }
-
 
 
 console.log("O nome é: ", animal.nome)
