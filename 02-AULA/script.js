@@ -1,4 +1,4 @@
-// Interação com o usuário via prompt
+ // Interação com o usuário via prompt
 var nome = prompt("Digite um nome:")
 
 alert("Seu nome é: " +nome)
